@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de videos em sites</title>
+</head>
+<body>
+    <h1>Videos em sites</h1>
+    <p>Formatos de videos para inserir em sites</p>
+    <!--Para inserir um video basta utilizar a tag video e em seguida  reduzir com a ferramentaa widht geralmente 500px e adc um controls para aparecer os controles de midia-->
+    <h2>Videos final de tarde</h2>
+    <!--googlechrome compativel com os tres tipos de arquivos-->
+   <!-- <video src="videos/meu-videom4V.mp4" width="500px" controls loop></video>
+    <video src="videos/Meu-Videomp4.m4v" width="500px" controls loop></video>
+    <video src="videos/Meu-Videowebm.webm" width="500px" controls loop></video>-->
+    <!--OUTRA FORMA DE INSERIR-->
+    <video  controls poster="foto-final-de-tarde/foto-barco-final-tarde.png" width="500px" loop ><!--cria-se uma ferramenta poster para inserir a imagem antes de carregar o video...-->
+        <source src="videos/meu-videom4V.mp4" type="video/mp4">
+        <source src="videos/Meu-Videomp4.m4v" type="video/m4v">
+        <source src="videos/Meu-Videowebm.webm" type="video/webm">
+        <p>Seu video é incompativel com o navegador</p><!--desta forma so aparece o paragrafo se der erro nos videos-->
+        <!--desta forma acima primeiro ele carrega o primeiro video, se for incompativel , carregará o segundo e assim por diante... Se caso nenhum for compativel aparecera´ uma msg que colocamos como paragrafo...
+        
+        OBS: Este formato de inserir videos é uma forma de alto consumo e não é a melhor forma de se colocar em hospedagem ou site...e fics caro para o cliente...-->
+    </video>
+</body>
+</html>

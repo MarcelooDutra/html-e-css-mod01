@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio proprio</title>
+</head>
+<body>
+    <h1>Imagens adaptaveis de lugares</h1>
+    <picture><!--sempre no media trocar o min-width por max-width...significa se x numero for menor que y carregar a foto z ...
+    OBS: A base sempre será a imagem que queremos carregar e depois os source quem fazem as condições para que as imagens mudem de acordo com o tamanho... Os source tem sempre que estar na ordem de acordo com o tamanho da imagem ... da menor para o maior ...-->
+        <source media="(max-width:750px )" srcset="Imagens02/foto-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="Imagens02/foto-m.png" type="image/png">
+        <img src="Imagens02/foto-g.png" alt="imagens adaptaveis de lugares">
+    </picture>
+
+    <!--Colocndo audio no site e aproveitando aqui o mesmo exercicio...-->
+</body>
+</html>

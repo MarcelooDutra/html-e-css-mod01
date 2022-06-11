@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatação de texto</title>
+</head>
+<body>
+    <h1>Formatando Textos</h1>
+    <h2>Códigos-font/Códigos-PRE</h2>
+    <p>Uma das formas em javascript de se obter um arquivo atraves do seu nome de origem é utilizando uma ferramenta chamada <code>document.getElementById("Origem")</code></p><!--code é uma tag para nivelar o espaçamento das letras.-->
+    <pre>
+        <code>
+function numero(){<!--para alterar o espaçamento da borda da pagina basta pressionar tecla shift + tab para recuar e para adiantar ou ir a frente pressiona-se apenas tab ...-->
+    var idade = 28
+    var ano = 1990
+    var mes = 01
+}
+if(idade >= 20){
+    velho
+}else{
+    novo
+}
+console.log(numero)
+        </code>
+    </pre>
+    <h2>Citações simples</h2><!--citações sem quebras de linha e etc...-->
+    <p>Já dizia meu pai: <q>se voce não fizer , outro passa fome fará</q></p>
+    <h2>Citações completas</h2>
+    <p>O corpo fala</p>
+    <blockquote cite="https://www.estantevirtual.com.br/livros/pierre-weil-e-roland-tompakow/o-corpo-fala/3331417122?rec=1&q=O%20Corpo%20Fala%20Pierre%20Weil%20e%20Roland%20Tompakow#">
+        O livro tenta desvendar a comunicação não-verbal do corpo humano, primeiramente analisando os princípios subterrâneos que regem e conduzem o corpo. A partir desses princípios aparecem as expressões, gestos e atos corporais que, de modos característicos estilizados ou inovadores, expressam sentimentos, concepções, ou posicionamentos internos.
+    </blockquote><!--dentro desta tag entende-se de onde este texto faz parte e cria-se um cite dentro da mesma pra redirecionar para o site-->
+    <h2>Abreviações</h2>
+    <p>Estou estudando duas linguagens importantes
+        <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading style sheets">CSS</abbr>.<!--Para descrever ao usuarios as abreviações ou siginificados das siglas...-->
+    </p>
+    <p><bdo dir="ltr">Estou aprendendo as linguens HTML e CSS e estou adorando ...</bdo></p><!--ltr mostra de forma correta e normal-->
+    <p><bdo dir="rtl">Estou aprendendo as linguagens HTML e CSS e estou adorando...</bdo></p><!--rtl mostra de forma invertida ou ao contrario...-->
+</body>
+</html>

@@ -1,0 +1,144 @@
+° Uma ferramenta bastante eficaz para que coloquemos palavras em negrito , italico e etc... só pressionar a tecla "ctrl+shift+p" abrindo o whatinchrome selecionar >abb
+ou quebra de linha com abreviatura...
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+° Se for utilizar uma palavra apenas como forma css(tags sem semantica) , se for dar sentido html (tags com semantica).
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+° Para marcação de texto utilizamos a tag 'MARK'...O marcador é uma forma e para mudar a cor , precisa-se aplicar css dentro da tag ...Ex: utiliza-se o parametro style e 
+ background-color e escolha a cor.
+
+° OBS: Aplicando o style dentro da tag e aplicando uma cor, fica marcado sem utilizar a tag mark.
+
+° OBS: Para mudar as cores das marcações todas ao mesmo tempo(pq elas nao herdam as cores , pois sao indivuduais no formato dentro da tag)
+precisa-se ir em head criar um style e um marcador mark e abrir chaves. La dentro colocar um backgrond e mudar as cores de todos ao 
+mesmo tempo.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+° A tag para texto pequeno utilizamos small e grande big , porem o big esta obsoleto, ou seja, não faz mais parte do html 5 e será substituida .
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+° Para texto excluido( com um risco ) usa-se a tag del e texto inserido para dar uma enfase utiliza-se a tag ins(semantica) e tambem podemos sublinhas ou dar enfase utilizando a tag U ( não semantica)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+° Para sobrescrever ( um numero ou letra em cima) utiliza-se a tag SUP. Para subscrever ( numero ou letra em baixo) utiliza-se a tag SUB.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+° Para leitura de letras e gerar uma ocupação da mesma largura , utilizamos uma tag CODE, ou se ja , fica de uma forma mais espaçada e as letras ocupam os mesmos espa-
+ços... Porem o code não organiza um texto ou tem efeito de identação no mesmo ... para isso utilizamos a tag PRE... abaixo será explicada!
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+° A tag PRE serve para reorganizar dentro do escopo de uma tag ou indentar (arrumar)...Essa tag e uma formatação de texto e conseguimos espaçar entre outras coisas ...
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+° Shift + tab recuam a estrutura do escopo... 
+° Apenas a tecla tab adianta ou espaça a estrutura dentro do escopo...
+° Ou podemos apenas selecionar e recuar com o back...
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+°Existe uma tag para colocar aspas nas frases que é a <q></q> quando for uma citação , porem, podemos simplesmente colocar as aspas pelo teclado ,mas não tem sentido
+semantico seria só uma forma e não e viavel utilizar numa citação ...
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+° Atraves da tag blockquote conseguimos montar e citar um texto com quebra de linha e espaçamento e citar com url de um cite e digitando um pedaço do texto do livro
+ja reconhece de onde faz parte o texto e assim direcionando para a pagina...Para citar a url cria-se dentro da tag blockquote um cite e cola a url...O blockquote permi-
+te uma citação de bloco ou seja, uma citação em grande escala...A mesma aparece na web com o texto deslocado na forma em que percebe-se que seja uma citação a algum au
+tor...Visualmente não vai aparecer nada , mas a parte interna do site , sabe que há uma citação do mesmo ...
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+° Para mostrar os significados das siglas ou abreviações basta utilizar a tag ABBR...
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+° Para utilizar texto invertido , ou seja , as frases escritas ao contrario utilizamos a tag (bdo"rtl")mostra invertido e (bdo "ltr")mostra de forma normal ...
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+°Para criar uma lista de forma mais automatizada basta utilizarmos a tag ol - lista ordenada...Organiza cada item digitdo dentro da 
+mesma. Para criar dentro da ol utilizamos ou que e li de lista ...
+
+° Para dar estilo ou mudar o indicador de cada item colocamos dentro da tag ol um type"" pode ser numeros , letras , romanos ...
+
+° Para listas não ordenadas utilizamos a tag UL a listagem ja sai com pontos para demarcar e se utilizarmos um type na tag e digitar square muda os indicadores para
+quadradinhos...
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ° Aninhamento e ´o nome dado para o espaço das linhas da coluna ... conforme as linhas de codigos vão entrando é pq estao se aninhando dentro de algum escopo...
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+° O start ferramenta de partida do indicadores e alfanumerico se utilizarmos letra e quisermos mudar a ordem , temos que utilizar numero e correspondera a letra da 
+colocação do numero ...
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+°Podemos criar lista dentro de lista... basta que dentro da tag li cria-se uma ol , abrimos e depois continuamos com li...podemos tb misturar ul com ol ... ordenadas com não ordenadas ...basta criar a ul dentro de uma lista e abrir e contunuar com li...
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+°Segurando o alt e clicando dentro das tag cria-se cursores e podemos modifica-los de uma vez só ...
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+°Lista de definição:
+utilizamos uma tag dl, logo em seguida um dt - seria o termo e um dd que é a definição....
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+°Tudo que é clicavel e te direciona para algum repositiro ou site sõ chamados de  links(quando são externos é pq te direcionam para outro site externo)...O link é criado atraves de uma ancora que é o que permita que seja clicavel e te direcione para algum site...Aplicando a tag <a></a> automaticamente vai criar um href="insira aqui o https:// ... dominio so seu site ..."href é a referencia hipertexto qque é pra onde o ste vai ...
+
+° Cria-se um target"_blank" para abrir uam aba nova ao clicar no link, pois , sem o target , quando clicar , ele vai sobrepor o site em que estiver no momento ...
+
+° Cria-se tambem um rel="external"-- aqui ele indicar que o link vai direcionar para um site exxterno ... ou seja , pra fora do seu site atual....Recomendado o target e o rel para links externos ...
+
+° O target"_blank" é para direcionar para uma janela em branco , uma nova aba ...
+
+° O rel"external" é relativo a e dizendo que é um site ou vai ser direcionado para um site externo...
+--------------------------------------------------------------------------------------------------------------------------
+° No link interno precisa-se de duas paginas internas  para que funcione...
+
+° Pressiona-se a tecla crlt + backspace para que vuzualizemos dentro do visual studio code as pastas que estão disponiveis e que vamos ter acesso...
+
+°Quando o link é interno , no href não precisamos colocar a url inteira e sim ´so o nome da pagina que devera ir ...
+
+° Qundo o link estiver dentro de outra pasta precisa-se informar o caminho para podermos acessar a url de fato...
+
+° Para um link abrir na mesma aba ou voce nao faz o target ou faça e coloque target="self"...
+
+° Qundo um aquivo ou link esta dentro de outra pasta e para retornarmos para a pasta anterior ...
+basta utilizar ./ (com apenas ./ (um ponto e barra) permanece na mesma pasta ) ou ../(com dois pontos e barra sai da pasta e vai para pastas externas ) siginifica voltar pasta anterior...
+--------------------------------------------------------------------------------------------------------------------------
+°Obs : O rel nos links internos para acessar um outra pagina pode-se atribuir assim: rel="next" indica proximo e pra voltar de uma para outra assim: rel="prev" de previus...Serve só para facilitar para o mecanismo de busca saber onde tem que ir ...
+---------------------------------------------------------------------------------------------------------------------------° Sempre que fizermos um link para um patrocionio (pagou pra marca esta ali) , um fake news ou que voce não tenha uma aval da mesma utiliza-se no rel o seguinte ... rel="nofollow" para o site de buscar identificar isso...caso contrario ...rel="dofollow" ...
+--------------------------------------------------------------------------------------------------------------------------
+°Para links de download ... no href="" - coloca-se a url do arquivo, cria-se um download="" - colocando o nome do arquivo e um type=""- com o formato de download de cada tipo de documento....no caso do pdf e : application/pdf
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+°Obs: Musicas nos sites tambem precisam ter atenção com direitos autorais... no youtube nas configurações tem como escolhar com direitos de uso...
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+°Para inserir audio na pagina, basta ter um baixado em formato mp3, wav, ogg e asssim criar uma tag audio e em seu src ,colocar o nome do arquivo , acrescentar a tag controls para aparecer o controle de musica e para que ao final se repita a musica quando acabar a mesma adicionar a tag loop ...
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+°Obs: evitar arquivos wav , pois são grandes para site e para arquivos grandes rodar na internet não funcionam bm. Arquivos grande e de qualidade servem apenas ára download e não para rodar em site ....
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+VIDEOS EM SITES:
+°Os formatos mais utilizados hoje em html5 são:
+Ordem de preferencia e compatibilidade:
+- mp4/m4v, webm e ogg...O ogg no caso dos videos é ogv...
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

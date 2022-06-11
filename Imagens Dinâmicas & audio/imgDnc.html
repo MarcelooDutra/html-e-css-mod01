@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Adaptavel</title>
+</head>
+<body>
+    <picture><!--No media do source quer dizer que se a imagem for menor do pix da imagem que i´ra carregar vai sempre adaptar para a imagem menor ... ex: media ="(max-width: 1000)" a imagem G se o tamanho for menor que 1.050 ira´ carregar a de 750 e assim sucessivamente...No type basta colocar o formato da foto... -->
+        <!--Obs 02 ... Cria-se apenas uma tag de img e depois apenas as tags source para criar uma condição de adaptção...-->
+        <source media="(max-width:750px )" srcset="Imagens/img-p.png" type="image/png">
+        <source media="(max-width:1050px )" srcset="Imagens/img-m.png" type="image/png">
+        <img src="Imagens/img-g.png" alt="imagem adaptavel">
+    </picture>
+    <!--OBS: Para adaptar imagens em diversos tamanhos de tela, cria-se uma tag picture que afirma que ali terá uma imagem... Depois uma tag img para colocarmos a imagem na web e em seguida um source para que está imagem se torne adaptavel ao mudar a tela...-->
+</body>
+</html>

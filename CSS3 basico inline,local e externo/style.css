@@ -1,0 +1,19 @@
+@charset "UTF-8" 
+/*acima siginifica a configuração de linguagem do arquivo externo*/
+
+body{
+    background-color: chartreuse;
+}
+
+h1{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;/* sublinhando os titulos*/
+}
+
+h2{
+    color: rgb(25, 9, 250);
+}
+
+p{
+    text-align: justify;
+}
